@@ -18,7 +18,7 @@ A execução do modelo deve ser realizada em python utilizando as bibliotecas co
 
 Segue o código exemplo para execução do modelo:
 
-´´´python
+```python
 from pipeline
 
 classifier = pipeline("text-classification",
