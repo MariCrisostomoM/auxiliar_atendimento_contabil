@@ -1,6 +1,6 @@
 # Auxiliar de Atendimento Contabil
 
-O modelo final se encontra no diretório [BERTimbau finetuned model](https://github.com/MariCrisostomoM/auxiliar_atendimento_contabil/tree/main/BERTimbau%20finetuned%20model).
+O modelo final se encontra no diretório [BERTimbau finetuned model](https://github.com/MariCrisostomoM/auxiliar_atendimento_contabil/tree/main/BERTimbau_finetuned_model).
 
 Se trata do modelo [BERTimbau](https://huggingface.co/neuralmind/bert-base-portuguese-cased) com aplicação de finetunning para contexto de aplicação do classificador.
 
