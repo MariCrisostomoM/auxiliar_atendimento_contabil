@@ -2,9 +2,9 @@
 
 O modelo final se encontra no diretório [BERTimbau finetuned model](https://github.com/MariCrisostomoM/auxiliar_atendimento_contabil/tree/main/BERTimbau_finetuned_model).
 
-Se trata do modelo [BERTimbau](https://huggingface.co/neuralmind/bert-base-portuguese-cased) com aplicação de finetunning para contexto de aplicação do classificador.
+Se trata do modelo [BERTimbau](https://huggingface.co/neuralmind/bert-base-portuguese-cased) com fine tuning no contexto de aplicação do classificador. O dataset rotulado utilizado no fine tuning está disponível no [link](https://drive.google.com/drive/folders/1hmCnqI353NZ7hhF5iefoT415IwthCdKx?usp=sharing) e o fine tuning pode ser econtrado nesse [link](https://colab.research.google.com/drive/1Xt_SWsSjIOOL8iv6dxG789XjUqdg_rKR?usp=sharing).
 
-O treinamento de finetunning pode ser econtrado nesse [link](https://colab.research.google.com/drive/1Xt_SWsSjIOOL8iv6dxG789XjUqdg_rKR?usp=sharing). Em comparação com esse modelo, foram avaliadas duas outras estratégias: [BERTimbau Finetuned + Classificador](https://colab.research.google.com/drive/14-kOaC4dNSeq1jTl7YKNJyD2F-j0f4re?usp=sharing) e [BERTimbau + Classificador](https://colab.research.google.com/drive/19YIaK2rbdg20NWe9eozsHgXJ2KUGBQHY?usp=sharing). O resultado pode ser visto na tabela abaixo.
+Em comparação com o modelo, foram avaliadas duas outras estratégias: [BERTimbau Finetuned + Classificador](https://colab.research.google.com/drive/14-kOaC4dNSeq1jTl7YKNJyD2F-j0f4re?usp=sharing) e [BERTimbau + Classificador](https://colab.research.google.com/drive/19YIaK2rbdg20NWe9eozsHgXJ2KUGBQHY?usp=sharing). O resultado pode ser visto na tabela abaixo.
 
 | **Abordageem**                      | **Acurácia** | **Precisão** | **Recall** | **F1**  |
 |-------------------------------------|--------------|--------------|------------|---------|
