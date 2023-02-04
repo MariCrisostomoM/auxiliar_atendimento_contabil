@@ -19,7 +19,7 @@ A execução do modelo deve ser realizada em python utilizando as bibliotecas co
 Segue o código exemplo para execução do modelo:
 
 ```python
-from pipeline
+from transformers import pipeline
 
 classifier = pipeline("text-classification",
                       model="BERTimbau_finetuned_model/",
