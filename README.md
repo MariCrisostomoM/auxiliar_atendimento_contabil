@@ -14,7 +14,7 @@ O treinamento de finetunning pode ser econtrado nesse [link](https://colab.resea
 
 ## Execução do modelo
 
-A execução do modelo deve ser realizada em python utilizando as bibliotecas contidas no arquito texto [requirements.txt]().
+A execução do modelo deve ser realizada em python utilizando as bibliotecas contidas no arquito texto [requirements.txt](https://github.com/MariCrisostomoM/auxiliar_atendimento_contabil/blob/main/requirements.txt).
 
 Segue o código exemplo para execução do modelo:
 
