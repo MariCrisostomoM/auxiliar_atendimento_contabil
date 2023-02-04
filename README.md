@@ -18,7 +18,7 @@ A execução do modelo deve ser realizada em python utilizando as bibliotecas co
 
 Segue o código exemplo para execução do modelo:
 
-'''python
+´´´python
 from pipeline
 
 classifier = pipeline("text-classification",
@@ -28,7 +28,7 @@ classifier = pipeline("text-classification",
 mensagem = "Bom dia, gostaria de receber a taxa de conodomínio de vencimento no dia 15/02."
 
 classe = classifier(x)[0]['label']
-'''
+```
 
 ### Mapeamento classe - tarefa
 
